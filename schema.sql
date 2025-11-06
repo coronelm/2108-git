@@ -10,3 +10,4 @@ CREATE TABLE Subjects (subject_id int PRIMARY KEY, subject_name VARCHAR);
 >>>>>>> 0b9af3dced3c15e001beef8b01e03535075e0a69
 CREATE TABLE attendance_id (attendance_id INT AUTO_INCREMENT PRIMARY KEY atttendance_name VARCHAR(50));
 CREATE TABLE GRADES(grade_id int auto_increment primary key, student_int int, subject varchar(50), grade int)
+Create table enrollment ( enrollment_id int auto_increment primary key, student_id int, class_id int);
